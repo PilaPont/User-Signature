@@ -1,15 +1,17 @@
 {
     'name': 'User Signature',
-    'version': "14.0.1.0.0",
-    'category': '',
+    'version': '14.0.0.1.1.0+210714',
     'description': """
-    User Signature
+    Add user signature to user settings
     """,
-    'author': "Maryam Kia",
-    'website': "",
+    'category': 'Sign',
+    'author': 'Kenevist, Maryam Kia',
+    'website': 'https://kenevist.ir',
+
     'depends': [],
     'data': [
         'views/res_users.xml',
              ],
-    'demo': [],
+    'application': False,
 }
+
