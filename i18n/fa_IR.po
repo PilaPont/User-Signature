@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: Odoo Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-01 14:13+0000\n"
-"PO-Revision-Date: 2021-01-01 14:13+0000\n"
+"POT-Creation-Date: 2021-07-14 09:36+0000\n"
+"PO-Revision-Date: 2021-07-14 09:36+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -34,6 +34,22 @@ msgstr "آخرین تغییر در"
 #: model:ir.model.fields,field_description:user_signature.field_res_users__signature_image
 msgid "Signature Image"
 msgstr "تصویر امضا"
+
+#. module: user_signature
+#: code:addons/user_signature/models/res_users.py:0
+#, python-format
+msgid ""
+"The allowable aspect ratio of signature image is 'one' with a maximum "
+"tolerance of 0.05!"
+msgstr "نسبت ابعاد مجاز تصویر امضا «یک» است، با حداکثر تلورانس ۵ درصد!"
+
+#. module: user_signature
+#: model:ir.model.fields,help:user_signature.field_res_users__signature_image
+msgid ""
+"Upload user signature image. Please pay attention, the allowable aspect "
+"ratio of signature image is 'one', with a maximum tolerance of 0.05!"
+msgstr ""
+"تصویر امضای کاربر را بارگذاری کنید. لطفا توجه داشته باشید، نسبت ابعاد مجاز تصویر امضا «یک» است، با حداکثر تلورانس ۵ درصد!"
 
 #. module: user_signature
 #: model:ir.model,name:user_signature.model_res_users
